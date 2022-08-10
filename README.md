@@ -8,7 +8,7 @@ The present paper introduces a novel approach based on a truncated SVD and kerne
 --- | --- 
 TSVD-KDE with the default hyperparameters | 2.93
 TSVD-KDE after hyperparameters tuning | 1.7
-Hierarchical classification based on TSVD-KDE | 1.53
+Hierarchical classification based on TSVD-KDE | **1.53**
 Gaussian SVM with C = 5 and gamma = 0.05 | 1.63
 Random Forest with the default hyperparameters | 2.96
 XGBoost with the default hyperparameters | 2.2
@@ -18,10 +18,10 @@ CatBoost with the default hyperparameters | 2.6
 
 | Model | Training time, sec | Prediction time, sec | Tuning time, hours
 --- | --- | --- | ---
-Hierarchical classification algorithm | 5 | 35 | ~ 77
+Hierarchical classification algorithm | **5** | 35 | ~ **77**
 SVM | 712 | 159 | ~ 217
 Random Forest | 29 | 0.32 | -
-XGBoost | 170 | 0.04 | -
+XGBoost | 170 | **0.04** | -
 CatBoost | 467 | 1.41 | -
 
 #### Research code description
